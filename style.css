@@ -1,0 +1,452 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    
+}
+
+
+
+/* hero background image */
+.bgimage {
+    height:98vh;
+    background: url('photo.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 1.25rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+.resume-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .resume-link i {
+    margin-right: 5px;
+  }
+  
+  .btn-resume {
+    background-color: #008000;
+    border-color: #008000;
+    color: #ffffff;
+  }
+  
+  .btn-resume:hover {
+    background-color: #006400;
+    border-color: #006400;
+  }
+  .social-link {
+    order: 2;
+    margin-left: 10px;
+  }
+  /* social link container */
+.navbar-nav.social-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+  }
+  
+  /* social link icon */
+  .social-link {
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* resume link */
+  .resume-link {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  /* media query for smaller screens */
+  @media (max-width: 991.98px) {
+    .navbar-nav.social-links {
+      display: none;
+    }
+  }
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+/* Education Section */
+/* Education Section */
+#education {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.education-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+}
+
+.education-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+.education-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.education-card-subtitle {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.education-card-details {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Certification Section */
+#education {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.certification-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+}
+
+.certification-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+.certification-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.certification-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.certification-card-details {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.certification-card-link {
+  margin-left: auto;
+}
+/* skills section */
+/* skills section */
+#skills {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-category {
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.skills-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-item {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .skills-category {
+    margin-right: 30px;
+  }
+}
+/* portfolio section*/
+#portfolio {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.portfolioContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.portfolioContent .card-img-top {
+  height: 200px; /* Adjust the image height within the container */
+  object-fit: cover;
+}
+
+.portfolioContent .card-body {
+  flex: 1; /* Let the card body expand to fill the available space */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.portfolioContent .card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.portfolioContent .card-text {
+  font-size: 16px;
+}
+
+.portfolioContent .text-center {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .portfolioContent .card-img-top {
+      height: 300px; /* Adjust the image height within the container for larger screens */
+  }
+}
+/* General styles for the section */
+.ftco-section{
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+/* Heading style */
+.heading-section h2 {
+  font-size: 36px;
+  color: #333333;
+}
+
+/* Contact form wrapper */
+.wrapper {
+  margin-top: 30px;
+  border: 1px solid #dddddd; /* Add a border around the contact section */
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Contact form input fields */
+.contact-wrap .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 12px 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Contact form textarea field */
+.contact-wrap textarea.form-control {
+  resize: none;
+}
+
+/* Contact form submit button */
+.contact-wrap .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #ffffff;
+}
+
+/* Contact form submit button on hover */
+.contact-wrap .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #ffffff;
+}
+
+/* Contact information wrapper */
+.info-wrap {
+  margin-top: 30px;
+}
+
+/* Contact information icons */
+.info-wrap .icon {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact information text */
+.info-wrap .text {
+  padding-left: 15px;
+}
+
+/* Contact information links */
+.info-wrap a {
+  color: #333333;
+}
+
+/* Contact information links on hover */
+.info-wrap a:hover {
+  color: #007bff;
+}
+
+/* Responsive styles for small devices */
+@media (max-width: 767px) {
+  .contact-wrap,
+  .info-wrap {
+    padding: 20px;
+  }
+  .contact-wrap .form-control,
+  .contact-wrap textarea.form-control {
+    padding: 10px 15px;
+  }
+}
+/* Navbar styling */
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbarScroll.navbarDark {
+  background-color: black;
+}
+
+/* Change color on scroll */
+.navbarScroll.navbarDark .navbar-brand,
+.navbarScroll.navbarDark .navbar-nav .nav-link {
+  color: #000000;
+}
+/* Contact information icons */
+.info-wrap .icon {
+  font-size: 20px; /* Reduce the font size to make the icons smaller */
+  width: 40px; /* Reduce the width to make the icons smaller */
+  height: 40px; /* Reduce the height to make the icons smaller */
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
